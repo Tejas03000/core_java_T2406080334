@@ -8,7 +8,7 @@ public class Demo {
 	public static void main(String [] args) {
 		
 		Seasons s = Seasons.SUMMER;
-		System.out.print(s);
+		System.out.println(s);
 		
 		
 		for(Seasons s1: Seasons.values()) {

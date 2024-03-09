@@ -5,7 +5,7 @@ public class B {
 	public static void main(String [] args) {
 		A a = new A();
 		double div = a.div(2, 5);
-		System.out.println("dov = " + div);
+		System.out.println("div = " + div);
 		if(div<1) {
 			try {
 				throw new MyException();

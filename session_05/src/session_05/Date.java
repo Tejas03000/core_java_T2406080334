@@ -3,6 +3,10 @@ package session_05;
 public class Date {
 
 	private int dd,mm,yyy;
+	
+	public Date() {
+		
+	}
 
 	public Date(int dd, int mm, int yyy) {
 		
@@ -34,6 +38,7 @@ public class Date {
 		d[1] = temp;
 	}
 	public static void main(String[] args) {
+		
 		Date[] d = new Date[2];
 		Date d1 = new Date(15,2,2024);
 		Date d2 = new Date(16,1,2023);

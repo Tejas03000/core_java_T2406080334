@@ -26,6 +26,7 @@ public class Employee {
 	
 	public static void main(String [] args) {
 		Employee  e = new Employee();
+		
 		System.out.println(e);
 		Employee e1 = new Employee(222, "Vishal", 56213.89d);
 		System.out.println(e1);

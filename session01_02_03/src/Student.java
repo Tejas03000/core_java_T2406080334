@@ -16,10 +16,11 @@ public class Student {
 		this.name = name;
 	}
 	
-	public String toString() {
-		return "Student [rollNo = " + rollNo + ", name = " + name + ']';
-	}
 	
+	public String toString() {
+		return "Student [rollNo=" + rollNo + ", name=" + name + "]";
+	}
+
 	public static void main(String [] args) {
 		Student s = new Student(1, "Rahul");
 		System.out.println(s);
